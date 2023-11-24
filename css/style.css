@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    position: absolute;
+}
+
+#curtian_00, #curtian_01, #curtian_02, #curtian_03 {
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    color: white;
+    background-color: rgb(81, 0, 0);
+    padding: 20px;
+    max-width: 300px;
+    height: 500px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 150px;
+    bottom: 0;
+}
+
+#curtian_00 {
+    top: 225px;
+    left: 600px;
+}
+
+#curtian_01 {
+    top: 225px;
+    left: 770px;
+}
+
+#curtian_02 {
+    top: 220px;
+    right: 770px; 
+}
+
+#curtian_03 {
+    top: 220px;
+    right: 600px;
+}
+
+#knight_00 {
+    pointer-events: none;
+    bottom: 250px;
+    right: 1253px;
+}
+
+#knight_01 {
+    pointer-events: none;
+    bottom: 193px;
+    right: 948px;
+    display: none;
+}
+
+#knight_02 {
+    pointer-events: none;
+    bottom: 341px;
+    right: 1041px;
+    display: none;
+}
+
+#knight_03 {
+    pointer-events: none;
+    bottom: 380px;
+    right: 824px;
+    display: none;
+}
+
+#knight_04 {
+    pointer-events: none;
+    bottom: 207px;
+    right: 634px;
+    display: none;
+}
